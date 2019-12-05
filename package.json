@@ -1,21 +1,21 @@
 {
-  "name": "olthoff_scott_favourite_things",
+  "name": "prior_mike_infographic_poster",
   "version": "1.0.0",
-  "description": "Favourite things app",
+  "description": "Infographic Poster",
   "main": "app.js",
   "scripts": {
     "start": "nodemon app"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/boomgreen87/olthoff_scott_favourite_things.git"
+    "url": "git+https://github.com/mprior19xx/prior_m_infographic_poster"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/boomgreen87/olthoff_scott_favourite_things/issues"
+    "url": "https://github.com/mprior19xx/prior_m_infographic_poster/issues"
   },
-  "homepage": "https://github.com/boomgreen87/olthoff_scott_favourite_things#readme",
+  "homepage": "https://github.com/mprior19xx/prior_m_infographic_poster#readme",
   "dependencies": {
     "autoprefixer": "^9.7.1",
     "cssnano": "^4.1.10",

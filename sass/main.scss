@@ -1,0 +1,55 @@
+@import '_vars';
+@import 'modules/_display';
+@import 'modules/_errors';
+
+// Hides all unwanted items
+.hidden {
+    display: none;
+}
+
+// Styles and positions body text
+body {
+    color: $mainColour;
+    font-family: $mainFont;
+    text-align: center;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+// Makes h1s and h2s bold
+h1, h2 {
+    font-weight: bolder;
+}
+
+// Styles h1s
+h1 {
+    font-size: 40px;
+    text-transform: uppercase;
+    margin: 20px;
+}
+
+// Styles h2s
+h2 {
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+// Styles h3s
+h3 {
+    font-style: italic;
+    margin-bottom: 5px;
+    font-size: 18px;
+    color: $secondaryColour;
+}
+
+
+// Styles paragraphs
+p {
+    font-size: 18px;
+    line-height: 26px;
+}
+
+// Styles links
+a {
+    color: black;
+}

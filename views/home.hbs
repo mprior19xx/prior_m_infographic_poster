@@ -1,0 +1,22 @@
+<section id="faveThingsSection" class="section">
+    <div id="controllerCon">
+    <img src="images/controller.svg" class="contollerSvg">
+    </div>
+    <div class="faveThings">
+
+        <!-- loop through all our team members and put their info on the page -->
+        {{#each thing}} <!-- A for each loop -->
+        <div class="thing">
+            <img src="images/{{Image}}" alt="Video Game Cover" class="thingImage">
+            <h2>{{Title}}</h2>
+            <h3>{{Role}}</h3>
+            <a class="link" href="{{Link}}">{{Link}}</a>
+
+            <!-- Place fave thing info here -->
+            <p class="info" id="info{{ID}}"></p>
+
+            <a href="{{ID}}" class="seeMore" id="seeMore{{ID}}">About The Game</a>
+        </div>
+        {{/each}}
+    </div>
+</section>

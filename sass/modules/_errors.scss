@@ -1,0 +1,46 @@
+.errorPage {
+    background-color: $bgColour;
+    padding: 30px;
+}
+
+.errorWrapper {
+    margin-top: 8%;
+    margin-bottom: 20px;
+}
+
+.errorWrapper h3 {
+    font-size: 60px;
+    color: #aaa;
+    margin: 0;
+}
+
+.errorWrapper h4 {
+    color: #aaa;
+    margin: 0;
+    font-style: none;
+    margin-bottom: 40px;
+    font-size: 20px;
+}
+
+.errorWrapper h1 {
+    font-size: 60px;
+    text-transform: uppercase;
+    font-style: italic;
+    color: $secondaryColour;
+}
+
+#backButton {
+    padding: 12px;
+    background-color: $btnBorderColour;
+    text-decoration: none;
+    color: $buttonTextColour;
+    margin: 0 auto;
+    margin-top: 10px;
+    border-radius: 10px;
+    transition: 0.25s;
+    font-size: 20px;
+}
+
+#backButton:hover {
+    background-color: $buttonHover;
+}

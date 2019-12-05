@@ -4,7 +4,7 @@ const postcss = require('gulp-postcss');
 const nano = require('cssnano');
 const prefixer = require ('autoprefixer');
 
-// Include our image min library
+// Include min image in gallery
 const imagemin = require('gulp-imagemin');
 
 // Define some common tasks for Gulp to run

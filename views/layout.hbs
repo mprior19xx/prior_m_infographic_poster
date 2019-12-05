@@ -15,13 +15,20 @@
 </head>
 
 <body>
+<div id="siteCon">
     <h1 class="hidden">Interactive Poster Assignment</h1>
-    <h2>The Top 5 Selling Sony Games</h2>
+    <div id="titleCon">
+        <img class="title" id="titleImg" src="images/title.svg">
+    </div>
     <main>
+        {{!-- <div id="controllerCon">
+            <object id="controller-icon" type="image/svg+xml" data="images/controller.svg" class="ps-controller"></object>
+        </div> --}}
         {{{ body }}}
     </main>
-
+   
     <script type="module" src="js/main.js"></script>
+</div>
 </body>
 
 </html>

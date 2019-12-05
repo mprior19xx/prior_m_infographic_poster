@@ -1,6 +1,7 @@
 @import '_vars';
 @import 'modules/_display';
 @import 'modules/_errors';
+@import 'modules/_animate.scss';
 
 // Hides all unwanted items
 .hidden {
@@ -12,10 +13,18 @@ body {
     color: $mainColour;
     font-family: $mainFont;
     text-align: center;
-    max-width: 1400px;
     margin: 0 auto;
 }
 
+#siteCon{
+    background-image: url('../images/playstation.svg');
+    background-position: top left;
+    background-attachment: scroll;
+    background-size:150px 150px;
+    max-width:1200px;
+    height:100%;
+    margin:0 auto;
+}
 // Makes h1s and h2s bold
 h1, h2 {
     font-weight: bolder;
@@ -30,8 +39,9 @@ h1 {
 
 // Styles h2s
 h2 {
-    font-size: 25px;
-    margin-bottom: 5px;
+    font-size: 40px;
+    margin-top:10px;
+    margin-bottom: 10px;
 }
 
 // Styles h3s
@@ -53,3 +63,4 @@ p {
 a {
     color: black;
 }
+
